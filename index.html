@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potatory - index</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <style>
+        .categoryheader {
+            margin-top: 1em;
+            margin-left: 4.6em;
+        }
+
+        .setmargin {
+            margin: auto;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- header -->
+    <nav class="navbar navbar-light bg-white fixed-top" style="display: block;">
+        <div class="container-fluid">
+
+            <!-- menu -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" style="border: none;">
+                <img src="image/menu.png" width="45">
+                <a class="navbar-brand" href="#" style="margin-right: 10em">Menu</a>
+            </button>
+
+            <!-- logo -->
+            <img src="image/logo.jpg" alt="" width="90">
+
+            <!-- Search/Cart/User -->
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <img src="image/bag.png" alt="mdo" width="40">
+                <img src="image/user.png" alt="mdo" width="40" class="rounded-circle">
+            </form>
+
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Potatory</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Cart</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Category
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                                <li><a class="dropdown-item" href="#">Best Seller</a></li>
+                                <li><a class="dropdown-item" href="#">Flavors</a></li>
+                                <li><a class="dropdown-item" href="#">Brands</a></li>
+                                <li><a class="dropdown-item" href="#">New Flavors</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- spaces behind the header -->
+    <h1>HEADERSPACE</h1>
+    <h1>HEADERSPACE</h1>
+
+    <!-- background VDO -->
+    <video autoplay muted loop id="myVideo" style="width: 100%; margin: 0;">
+        <source src="image/vdo.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+
+    <!-- intro paragraph -->
+    <div class="px-4 py-5 text-center " style="background-color: rgb(226, 225, 225); padding-bottom: 1rem!important;">
+        <h1 class="fw-bold" style="font-size: 2.0rem;">FIND YOUR OWN TASTE WITH THE VARIABLE OF CHIPS AND FLAVORS</h1>
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">Open your door to the world of deliciousness with Potatory. Our
+                website is create to fit for the chips lovers, who is seeks to get the new expereinces with taste of
+                chips. We have many flavors of chips for you to choose from, Welcome to Potatory family.</p>
+        </div>
+    </div>
+
+    <!-- Category Best Seller -->
+    <h2 class="categoryheader">BEST SELLER</h2>
+    <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+
+                <!-- carousel1 -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <img src="image/p4.jpg" class="d-block w-75 setmargin" alt="...">
+                            <h5 style="margin-left: 1.9em;">LAY'S® Lightly Salted BBQ</h5>
+                            <p style="margin-left: 2.5em;">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                Quas tempore
+                                doloribus unde
+                                molestias quia error animi! Eos dolores in.</p>
+                        </div>
+                        <div class="col">
+                            <img src="image/p1.jpg" class="d-block w-75 " alt="...">
+                            <h5>LAY'S® Baked BBQ</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas tempore doloribus unde
+                                molestias quia error animi! Eos dolores in.</p>
+                        </div>
+                        <div class="col">
+                            <img src="image/p2.jpg" class="d-block w-75 " alt="...">
+                            <h5>LAY'S® Baked Original</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas tempore doloribus unde
+                                molestias quia error animi! Eos dolores in.</p>
+                        </div>
+                        <div class="col">
+                            <img src="image/p6.jpg" class="d-block w-75 " alt="...">
+                            <h5>LAY'S® Honey BBQ</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas tempore doloribus unde
+                                molestias quia error animi! Eos dolores in.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="carousel-item">
+
+                <!-- carousel2 -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <img src="image/p3.jpg" class="d-block w-75 setmargin" alt="...">
+                            <h5 style="margin-left: 1.9em;">LAY'S® Wavy Lightly Salted Original</h5>
+                            <p style="margin-left: 2.5em;">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                Quas tempore
+                                doloribus unde
+                                molestias quia error animi! Eos dolores in.</p>
+                        </div>
+                        <div class="col">
+                            <img src="image/p5.jpg" class="d-block w-75 " alt="...">
+                            <h5>LAY'S® Flamin' Hot</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas tempore doloribus unde
+                                molestias quia error animi! Eos dolores in.</p>
+                        </div>
+                        <div class="col">
+                            <img src="image/p7.jpg" class="d-block w-75 " alt="...">
+                            <h5>LAY'S® Chile Limón</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas tempore doloribus unde
+                                molestias quia error animi! Eos dolores in.</p>
+                        </div>
+                        <div class="col">
+                            <img src="image/p8.jpg" class="d-block w-75 " alt="...">
+                            <h5>LAY'S® Dill Pickle</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas tempore doloribus unde
+                                molestias quia error animi! Eos dolores in.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Category Flavors -->
+    <h2 class="categoryheader">FLAVORS</h2>
+    <div id="carouselExampleControls2" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+
+                <!-- carousel1 -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <img src="image/p12.jpg" class="d-block w-75 setmargin" alt="...">
+                            <h5 style="margin-left: 1.9em;">PRINGLES® SCORCHIN' CHILI & LIME CRISPS</h5>
+                            <p style="margin-left: 2.5em;">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                Quas tempore
+                                doloribus unde
+                                molestias quia error animi! Eos dolores in.</p>
+                        </div>
+                        <div class="col">
+                            <img src="image/p10.jpg" class="d-block w-75 " alt="...">
+                            <h5>PRINGLES® WENDY’S® SPICY CHICKEN</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas tempore doloribus unde
+                                molestias quia error animi! Eos dolores in.</p>
+                        </div>
+                        <div class="col">
+                            <img src="image/p11.jpg" class="d-block w-75 " alt="...">
+                            <h5>PRINGLES® HONEY MUSTARD CRISPS</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas tempore doloribus unde
+                                molestias quia error animi! Eos dolores in.</p>
+                        </div>
+                        <div class="col">
+                            <img src="image/p13.jpg" class="d-block w-75 " alt="...">
+                            <h5>PRINGLES® SCORCHIN’ BBQ CRISPS</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas tempore doloribus unde
+                                molestias quia error animi! Eos dolores in.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="carousel-item">
+
+                <!-- carousel2 -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <img src="image/p14.jpg" class="d-block w-75 setmargin" alt="...">
+                            <h5 style="margin-left: 1.9em;">PRINGLES® WAVY MOA BURGER CRISPS</h5>
+                            <p style="margin-left: 2.5em;">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                Quas tempore
+                                doloribus unde
+                                molestias quia error animi! Eos dolores in.</p>
+                        </div>
+                        <div class="col">
+                            <img src="image/p15.jpg" class="d-block w-75 " alt="...">
+                            <h5>PRINGLES® WAVY PINEAPPLE HABANERO CLASSIC CRISPS</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas tempore doloribus unde
+                                molestias quia error animi! Eos dolores in.</p>
+                        </div>
+                        <div class="col">
+                            <img src="image/p16.jpg" class="d-block w-75 " alt="...">
+                            <h5>RUFFLES® DOUBLE CRUNCH™ HOT WINGS FLAVORED POTATO CHIPS</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas tempore doloribus unde
+                                molestias quia error animi! Eos dolores in.</p>
+                        </div>
+                        <div class="col">
+                            <img src="image/p17.jpg" class="d-block w-75 " alt="...">
+                            <h5>RUFFLES® DOUBLE CRUNCH™ ZESTY CHEDDAR FLAVORED POTATO CHIPS</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas tempore doloribus unde
+                                molestias quia error animi! Eos dolores in.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- eventbanner -->
+    <div style="display: flex; justify-content: center;">
+        <img src="image/eventbanner.jpg" alt="" style="width: 90%; ">
+    </div>
+
+
+    <!-- event -->
+    <div style="background-color: rgb(255, 255, 255); padding-bottom: 1rem!important;">
+        <div class="container" style="padding-top: 3em;">
+
+            <!-- main event -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col">
+                            <img src="image/event2.jpg" alt="" style="width: 600px; height: 300px;">
+                        </div>
+                        <div class="col">
+                            <h2>Releasing the new website Campaign!</h2>
+                            <p style="margin-bottom: 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Numquam impedit corporis nostrum
+                                veritatis dolorem ea nemo atque explicabo magnam! Corporis suscipit culpa maxime atque
+                                nostrum autem natus quidem voluptas totam.
+                            </p>
+                            <a href="" style="color: black;">more detail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- sub event -->
+            <div class="row" style="padding-top: 3em;">
+                <div class="col">
+                    <img src="image/event2.jpg" alt="" style="width: 300px; height: 150px;">
+                </div>
+                <div class="col">
+                    <h4>Facebook Selfie with Potatory!</h4>
+                    <p style="margin-bottom: 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Numquam impedit corporis nostrum.
+                    </p>
+                    <a href="" style="color: black;">more detail</a>
+                </div>
+                <div class="col">
+                    <img src="image/event2.jpg" alt="" style="width: 300px; height: 150px;">
+                </div>
+                <div class="col">
+                    <h4>Instagram Selfie with Potatory!</h4>
+                    <p style="margin-bottom: 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Numquam impedit corporis nostrum.
+                    </p>
+                    <a href="" style="color: black;">more detail</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div style="display: flex; justify-content: center;">
+        <hr style="width: 90%;">
+    </div>
+    <footer class="py-3" style="margin-top: 0.5em;">
+        <h4 class="text-center fw-bold" style="margin-bottom: 1em;">OUR SOCIAL MEDIA</h4>
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><img src="image/fb.png" alt=""
+                        style="width: 35px;"></a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><img src="image/ig.png" alt=""
+                        style="width: 35px;"></a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><img src="image/tw.png" alt=""
+                        style="width: 35px;"></a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><img src="image/dis.png" alt=""
+                        style="width: 35px;"></a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><img src="image/tik.png" alt=""
+                        style="width: 35px;"></a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><img src="image/snap.png" alt=""
+                        style="width: 35px;"></a></li>
+        </ul>
+        <p class="text-center text-muted">© 2021 Company, Inc</p>
+    </footer>
+</body>
+
+</html>
